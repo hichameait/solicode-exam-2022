@@ -189,7 +189,10 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-
+#form h2{
+    font-family: 'Poppins-ExtraBold';
+    font-size: 20px;
+}
 #xtext {
     font-family: 'Poppins-ExtraBold';
     font-size: large;
@@ -228,6 +231,7 @@ body {
 }
 
 .section-packs {
+    display: none;
     padding: 10px 40px;
     width: 100%;
 }
