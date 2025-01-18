@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('./fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('./fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-Regular';
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.section-header {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(90, 136, 255);
+    background: linear-gradient(164deg, rgba(90, 136, 255, 1) 0%, rgba(255, 184, 96, 1) 100%);
+}
+
+.navbar {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px;
+
+}
+
+#lift li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: larger;
+}
+#lift li p {
+    margin-left: 10px;
+}
+#right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#right li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+
+.section-hero{
+    display: flex;
+    padding: 50px 50px;
+    color: white;
+}
+
+.text-part {
+    width: 40%;
+}
+.text-part h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.text-part p {
+    margin-top: 2rem;
+    font-size: 15px;
+    width: 67%;
+
+}
+.text-part button {
+    color: white;
+    width: 170px;
+    height: 40px;
+    background-color: #FFB860;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.image {
+    width: 60%;
+}
+
+.section-hero .image img {
+    max-width: 100%;
+}
+
+.section-body {
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-body #header {
+    text-transform: uppercase;
+    text-align: center;
+    width: 75%;
+    font-size: 39px;
+    font-family: 'Poppins-ExtraBold';
+    margin: 30px 30px;
+}
+.section-body #para {
+    text-align: center;
+    font-size: 15px;
+    width: 60%;
+    
+}
+
+.sec-carte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+.carte-text {
+    width: 40%;
+    margin: 20px 20px;
+    text-align: center;
+
+}
+.carte-text h1 {
+    color: #2958D2 ;
+    font-family: 'Poppins-Bold';
+
+}
